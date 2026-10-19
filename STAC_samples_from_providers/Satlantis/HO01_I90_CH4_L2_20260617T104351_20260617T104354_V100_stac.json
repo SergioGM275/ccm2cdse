@@ -8,7 +8,8 @@
     "https://stac-extensions.github.io/product/v1.0.0/schema.json",
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/sat/v1.1.0/schema.json",
-    "https://stac-extensions.github.io/view/v1.0.0/schema.json"
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.0.0/schema.json"
   ],
   "id": "HO01_I90_CH4_L2_20260617T104351_20260617T104354_V100",
   "bbox": [
@@ -109,7 +110,7 @@
       "description": "Methane column density enhancement expressed in mol m-2",
       "file:checksum": "12201a29fe2aa4d4832dff966656f2637a44bfefc28c2300843df4ca3338859ef034",
       "file:size": 10444395,
-      "file:local_path": "HO01_I90_CH4_L2_20260617T104351_20260617T104354_V100/20260617T104351_20260617T104354_0000005779_HORACIO_2QCH4_150_20260929T170748_SR.tif",
+      "file:local_path": "HO01_I90_CH4_L2_20260617T104351_20260617T104354_V100/HO01_I90_CH4_L2_20260617T104351_20260617T104354_V100.tif",
       "data_type": "float32",
       "nodata": -9999.0,
       "proj:code": "EPSG:32641",
@@ -168,7 +169,7 @@
       "description": "Methane column density enhancement  with auxiliary datasets",
       "file:checksum": "12205ed0e85ae2eb15f6825252964a119bec1c51ae664fcd008fc7f65dba01691529",
       "file:size": 64785647,
-      "file:local_path": "HO01_I90_CH4_L2_20260617T104351_20260617T104354_V100/20260617T104351_20260617T104354_0000005779_HORACIO_2CH4_150_20260929T170748_SR.nc",
+      "file:local_path": "HO01_I90_CH4_L2_20260617T104351_20260617T104354_V100/HO01_I90_CH4_L2_20260617T104351_20260617T104354_V100.nc",
       "proj:code": "EPSG:32641",
       "proj:shape": [
         2181,
