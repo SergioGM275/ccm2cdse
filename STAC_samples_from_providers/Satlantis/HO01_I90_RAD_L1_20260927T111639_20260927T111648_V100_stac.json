@@ -47,7 +47,6 @@
   ],
   "properties": {
     "datetime": "2026-09-27T11:16:39Z",
-    "created": "2026-09-28T01:17:00Z",
     "start_datetime": "2026-09-27T11:16:39Z",
     "end_datetime": "2026-09-27T11:16:48Z",
     "processing:level": "L1",
@@ -67,7 +66,7 @@
     "view:azimuth": 280.08687739332504,
     "gsd": 2.173675,
     "proj:code": "EPSG:32639",
-    "sat:platform_international_designator": "24043A",
+    "sat:platform_international_designator": "2024-043A",
     "sat:absolute_orbit": 13999,
     "sat:orbit_state": "descending"
   },

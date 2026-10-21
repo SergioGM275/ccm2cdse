@@ -82,10 +82,9 @@
     "view:incidence_angle": 22.08835682309584,
     "view:sun_azimuth": 262.55325031291096,
     "view:sun_elevation": 51.29156674361836,
-    "created": "2026-09-29T17:07:48Z",
     "product:timeliness": "PT72H",
     "product:timeliness_category": "NTC",
-    "sat:platform_international_designator": "24043A",
+    "sat:platform_international_designator": "2024-043A",
     "sat:absolute_orbit": 12470,
     "sat:orbit_state": "descending"
   },
