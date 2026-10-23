@@ -153,7 +153,7 @@
       "file:checksum": "12205ed0e85ae2eb15f6825252964a119bec1c51ae664fcd008fc7f65dba01691529",
       "file:size": 64785647,
       "file:local_path": "HO01_I90_CH4_L2_20260617T104351_20260617T104354_V100/HO01_I90_CH4_L2_20260617T104351_20260617T104354_V100.nc",
-      "proj:code": "EPSG:32641",
+      "proj:code": null,
       "proj:shape": [
         2181,
         2736
