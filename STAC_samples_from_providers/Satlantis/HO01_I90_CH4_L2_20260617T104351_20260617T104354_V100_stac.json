@@ -62,22 +62,6 @@
     "processing:version": "150",
     "processing:datetime": "2026-09-29T17:07:48Z",
     "product:type": "I90_CH4_L2",
-    "proj:code": "EPSG:32641",
-    "proj:shape": [
-      2181,
-      2736
-    ],
-    "proj:transform": [
-      8.243806133201398,
-      0.0,
-      369435.6148686955,
-      0.0,
-      -8.243806133201398,
-      4039269.339377525,
-      0.0,
-      0.0,
-      1.0
-    ],
     "view:azimuth": 284.8121106718465,
     "view:incidence_angle": 22.08835682309584,
     "view:sun_azimuth": 262.55325031291096,
@@ -140,7 +124,7 @@
             "valid_percent": 35.48554300699019
           },
           "histogram": {
-            "count": 11,
+            "count": 10,
             "min": -69.63507080078125,
             "max": 69.63507080078125,
             "buckets": [
@@ -185,8 +169,8 @@
       "file:checksum": "12204ecca21bc2679922aff4e9d417d147aa83092e7f84fd296f77b003285dae4bb3",
       "file:local_path": "preview.png",
       "proj:shape": [
-        2736,
-        2181
+        2181,
+        2736
       ],
       "proj:code": null
     }
