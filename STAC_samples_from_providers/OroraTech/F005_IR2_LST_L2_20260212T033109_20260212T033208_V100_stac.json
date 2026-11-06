@@ -1,0 +1,169 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/product/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/view/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/eo/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "id": "F005_IR2_LST_L2_20260212T033109_20260212T033208_V100",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          22.16,
+          60.979
+        ],
+        [
+          22.784,
+          61.772
+        ],
+        [
+          23.356,
+          62.464
+        ],
+        [
+          24.198,
+          63.43
+        ],
+        [
+          29.492,
+          62.645
+        ],
+        [
+          26.227,
+          59.258
+        ],
+        [
+          21.593,
+          60.222
+        ],
+        [
+          22.16,
+          60.979
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    21.593,
+    59.258,
+    29.492,
+    63.43
+  ],
+  "properties": {
+    "description": "OroraTech Level-2 Land Surface Temperature expressed in Kelvin.",
+    "eo:cloud_cover": 99.87,
+    "sat:platform_international_designator": "2025-061D",
+    "processing:facility": "OroraTech",
+    "processing:level": "L2",
+    "processing:version": "v0.2.1",
+    "product:type": "IR2_LST_L2",
+    "product:timeliness": "P7D",
+    "product:timeliness_category": "NTC",
+    "view:azimuth": 291.488,
+    "view:incidence_angle": 33.707,
+    "start_datetime": "2026-02-12T03:31:09.016000Z",
+    "end_datetime": "2026-02-12T03:32:08.269000Z",
+    "providers": [
+      {
+        "name": "OroraTech",
+        "roles": [
+          "producer",
+          "processor"
+        ],
+        "url": "https://ororatech.com"
+      }
+    ],
+    "gsd": 200,
+    "platform": "FOREST-5",
+    "instruments": [
+      "F005-IR2"
+    ],
+    "datetime": "2026-02-12T03:31:09.016000Z"
+  },
+  "assets": {
+    "lst": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Land Surface Temperature [K]",
+      "nodata": 0,
+      "data_type": "uint16",
+      "bands": [
+        {
+          "name": "lst",
+          "description": "Land Surface Temperature [K]"
+        }
+      ],
+      "proj:code": "EPSG:4326",
+      "proj:bbox": [
+        21.601133346557617,
+        59.26999277807772,
+        29.481159452116117,
+        63.42713928222656
+      ],
+      "proj:shape": [
+        2316,
+        2099
+      ],
+      "proj:transform": [
+        0.0037541810888797045,
+        0.0,
+        21.601133346557617,
+        0.0,
+        -0.0017949682660400867,
+        63.42713928222656,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "file:checksum": "12202ec8db9d913c23659ccb0ae7f4ca4e56f50ffff056b28221c1e645b11e2880ac",
+      "file:size": 4546436,
+      "file:local_path": "F005_IR2_LST_L2_20260212T033109_20260212T033208_V100/F005_IR2_LST_L2_20260212T033109_20260212T033208_V100.tif",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "type": "image/png",
+      "title": "Thumbnail",
+      "proj:code": "EPSG:4326",
+      "proj:shape": [
+        539,
+        487
+      ],
+      "proj:transform": [
+        0.016180751756793635,
+        0.0,
+        21.601133346557617,
+        0.0,
+        -0.007712702234042376,
+        63.42713928222656,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "file:checksum": "122041cda2da4afe0aa3e6c5f165c0277dc93e9bc78374771b67d66174002348c84e",
+      "file:size": 165262,
+      "file:local_path": "F005_IR2_LST_L2_20260212T033109_20260212T033208_V100.png",
+      "roles": [
+        "thumbnail",
+        "overview"
+      ]
+    },
+    "Product": {
+      "href": "s3://CCM-ORORATECH-DEV/ccm-thermal-lst-mr/2026/10/20/F005_IR2_LST_L2_20260212T033109_20260212T033208_V100.tar",
+      "type": "application/tar",
+      "title": "TAR product",
+      "roles": [
+        "data",
+        "archive"
+      ]
+    }
+  },
+  "collection": "ccm-thermal-lst-mr"
+}
